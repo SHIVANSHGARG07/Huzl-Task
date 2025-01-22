@@ -46,3 +46,26 @@ Login: Authenticate users and provide JWT tokens.
 
 Protected Routes: Ensure secure access using middleware.
 
+API Endpoints
+
+Authentication
+
+POST /auth/register: Register a new user.
+
+POST /auth/login: Login and receive a JWT token.
+
+Wallet
+
+POST /wallet/add-funds: Add funds to the wallet.
+
+POST /wallet/withdraw-funds: Withdraw funds from the wallet.
+
+GET /wallet/balance: Get the wallet balance.
+
+Escrow
+
+POST /escrow/fund-escrow: Fund the escrow account.
+
+POST /escrow/release-escrow/:recipientId: Release funds from escrow to another user.
+
+POST /escrow/refund-escrow: Refund escrow funds back to the wallet.
