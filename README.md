@@ -32,9 +32,10 @@ Start the development server:
 
 npm run start:dev
 
-The API will be available at http://localhost:5000.
 
-Authentication Module
+[The API will be available at http://localhost:5000.]
+
+Authentication Module =>
 
 The Auth Module handles user registration, login, and authentication middleware.
 
@@ -46,15 +47,18 @@ Login: Authenticate users and provide JWT tokens.
 
 Protected Routes: Ensure secure access using middleware.
 
-API Endpoints
 
-Authentication
+
+API Endpoints =>
+
+Authentication:
 
 POST /auth/register: Register a new user.
 
 POST /auth/login: Login and receive a JWT token.
 
-Wallet
+
+Wallet:
 
 POST /wallet/add-funds: Add funds to the wallet.
 
@@ -62,7 +66,8 @@ POST /wallet/withdraw-funds: Withdraw funds from the wallet.
 
 GET /wallet/balance: Get the wallet balance.
 
-Escrow
+
+Escrow:
 
 POST /escrow/fund-escrow: Fund the escrow account.
 
