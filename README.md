@@ -34,6 +34,9 @@ npm run start:dev
 
 
 [The API will be available at http://localhost:5000.]
+[PostMan Collection Link =>  
+https://web.postman.co/workspace/huzlnestjs~e14b6742-d22a-45cf-98d9-9b5f99edb92b/request/33708311-d9e589b4-6eff-442e-b952-ca418386b4e9
+]
 
 Authentication Module =>
 
